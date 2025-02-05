@@ -281,7 +281,9 @@ General configuration for OpenCV 4.11.0 =====================================
     Include path:                /home/echo/work/lib/openVINO/opencv-4.11.0/3rdparty/include/opencl/1.2
     Link libraries:              Dynamic load
 
-  ONNX:                          NO
+  ONNX:                          YES
+    Include path:                /home/echo/work/lib/openVINO/onnxruntime-1.20.1/include
+    Link libraries:              /home/echo/work/lib/openVINO/onnxruntime-1.20.1/lib/libonnxruntime.so
 
   Python (for build):            /home/echo/work/lib/anaconda3/bin/python3
 
@@ -294,8 +296,6 @@ General configuration for OpenCV 4.11.0 =====================================
 
   Install to:                    /usr/local
 -----------------------------------------------------------------
-
-Configuring done (3.7s)
 ```
 
 
