@@ -177,7 +177,7 @@ General configuration for OpenCV 4.11.0 =====================================
     Version control (extra):     unknown
 
   Platform:
-    Timestamp:                   2025-02-05T12:52:58Z
+    Timestamp:                   2025-02-05T13:41:05Z
     Host:                        Linux 6.8.0-52-generic x86_64
     CMake:                       3.31.5
     CMake generator:             Unix Makefiles
@@ -199,10 +199,10 @@ General configuration for OpenCV 4.11.0 =====================================
   C/C++:
     Built as dynamic libs?:      YES
     C++ standard:                11
-    C++ Compiler:                /usr/bin/g++-13  (ver 13.3.0)
+    C++ Compiler:                /usr/bin/c++  (ver 11.4.0)
     C++ flags (Release):         -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
     C++ flags (Debug):           -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
-    C Compiler:                  /usr/bin/gcc-13
+    C Compiler:                  /usr/bin/gcc-11
     C flags (Release):           -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
     C flags (Debug):             -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
     Linker flags (Release):      -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  
@@ -214,7 +214,7 @@ General configuration for OpenCV 4.11.0 =====================================
 
   OpenCV modules:
     To be built:                 alphamat aruco bgsegm bioinspired calib3d ccalib core cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev cvv datasets dnn dnn_objdetect dnn_superres dpm face features2d flann freetype fuzzy gapi hdf hfs highgui img_hash imgcodecs imgproc intensity_transform java line_descriptor mcc ml objdetect optflow phase_unwrapping photo plot quality rapid reg rgbd saliency sfm shape signal stereo stitching structured_light superres surface_matching text tracking ts video videoio videostab viz wechat_qrcode xfeatures2d ximgproc xobjdetect xphoto
-    Disabled:                    python_bindings_generator python_tests world
+    Disabled:                    world
     Disabled by dependency:      -
     Unavailable:                 cannops fastcv julia matlab ovis python2 python3
     Applications:                tests perf_tests apps
@@ -236,7 +236,7 @@ General configuration for OpenCV 4.11.0 =====================================
       SIMD Support Request:      YES
       SIMD Support:              YES (Intel SSE)
     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.5.1)
-    JPEG 2000:                   OpenJPEG (ver 2.5.2)
+    JPEG 2000:                   build (ver 2.5.0)
     OpenEXR:                     build (ver 2.3.0)
     GIF:                         NO
     HDR:                         YES
@@ -294,6 +294,8 @@ General configuration for OpenCV 4.11.0 =====================================
 
   Install to:                    /usr/local
 -----------------------------------------------------------------
+
+Configuring done (3.7s)
 ```
 
 
