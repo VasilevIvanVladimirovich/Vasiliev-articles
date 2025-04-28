@@ -6,3 +6,7 @@ python3-subunit mesa-common-dev zstd liblz4-tool device-tree-compiler mtools
 sudo apt install ninja-build u-boot-tools scons fakeroot
 
 export PATH="/sbin:$PATH"
+
+source /home/echo/work/openvino_toolkit/setupvars.sh
+source /opt/intel/fpga_ai_suite_2024.3/dla/setupvars.sh
+source coredla_work.sh
