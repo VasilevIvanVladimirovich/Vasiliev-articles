@@ -24,3 +24,4 @@ source coredla_work.sh
 
 python3 /opt/intel/fpga_ai_suite_2024.3/dla/bin/dla_build_example_design.py --build --output-dir $COREDLA_WORK/10_perf_bitstream -n 1 -ed 4_A10_S2M -a $COREDLA_ROOT/example_architectures/A10_Performance.arch
 
+./create_hps_image.sh -f /opt/intel/fpga_ai_suite_2024.3/dla/platform/build_synth/hw/output_files -o /home/echo/work/coredla_work/build_image -u -m arria10
