@@ -9,10 +9,10 @@ export PATH="/sbin:$PATH"
 
 sudo apt install libncurses5
 export QUARTUS_ROOTDIR=/opt/altera/quartus_25.1/quartus
-export PATH=$PATH:/opt/altera/quartus_25.1/niosv/bin
-export PATH=$PATH:/opt/altera/quartus_25.1/riscfree/toolchain/riscv32-unknown-elf/bin
-
-export PATH=$PATH:/opt/altera/quartus_25.1/nios2eds/bin
+export PATH=$PATH:/opt/altera/quartus_24.3/24.3/quartus/bin
+export PATH=$PATH:/opt/altera/quartus_24.3/24.3/niosv/bin
+export PATH=$PATH:/opt/altera/quartus_24.3/24.3/riscfree/toolchain/riscv32-unknown-elf/bin
+export PATH=$PATH:/opt/altera/quartus_24.3/24.3/qsys/bin
 
 source /home/echo/work/openvino_toolkit/setupvars.sh
 source /opt/intel/fpga_ai_suite_2024.3/dla/setupvars.sh
