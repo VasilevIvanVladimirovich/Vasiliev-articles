@@ -10,3 +10,5 @@ export PATH="/sbin:$PATH"
 source /home/echo/work/openvino_toolkit/setupvars.sh
 source /opt/intel/fpga_ai_suite_2024.3/dla/setupvars.sh
 source coredla_work.sh
+
+python3 /opt/intel/fpga_ai_suite_2024.3/dla/bin/dla_build_example_design.py --build --output-dir $COREDLA_WORK/10_perf_bitstream -n 1 -ed 4_A10_S2M -a $COREDLA_ROOT/example_architectures/A10_Performance.arch
