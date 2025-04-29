@@ -7,6 +7,13 @@ sudo apt install ninja-build u-boot-tools scons fakeroot
 
 export PATH="/sbin:$PATH"
 
+sudo apt install libncurses5
+export QUARTUS_ROOTDIR=/opt/altera/quartus_25.1/quartus
+export PATH=$PATH:/opt/altera/quartus_25.1/niosv/bin
+export PATH=$PATH:/opt/altera/quartus_25.1/riscfree/toolchain/riscv32-unknown-elf/bin
+
+export PATH=$PATH:/opt/altera/quartus_25.1/nios2eds/bin
+
 source /home/echo/work/openvino_toolkit/setupvars.sh
 source /opt/intel/fpga_ai_suite_2024.3/dla/setupvars.sh
 source coredla_work.sh
