@@ -1,5 +1,6 @@
-git clone https://github.com/PaddlePaddle/PaddleDetection.git
+sudo apt install libnccl-dev
 
+git clone https://github.com/PaddlePaddle/PaddleDetection.git
 cd Paddle
 rm -rf build
 mkdir build
